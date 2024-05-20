@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white_wild_west">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container_fragments_wild_west"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.wild.wild.wild.west.LoadWildWestFragment"
+        tools:layout="@layout/fragment_load_wild_west" />
+</LinearLayout>

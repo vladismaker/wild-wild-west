@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.WildWildWest" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_wild_west</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.WildWildWest" parent="Base.Theme.WildWildWest" />
+</resources>

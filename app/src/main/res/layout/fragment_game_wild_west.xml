@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameWildWestFragment"
+    android:background="@drawable/background_menu_wild_west">
+
+    <ImageView
+        android:id="@+id/weel_wild_west"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:src="@drawable/weel_wild_west"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/arrow_wild_west"
+        android:layout_marginBottom="165dp"
+        android:importantForAccessibility="no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:importantForAccessibility="no">
+        <ImageView
+            android:id="@+id/btn_red_wild_west"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_red_wild_west"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:id="@+id/btn_green_wild_west"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_green_wild_west"
+            android:layout_marginHorizontal="40dp"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:id="@+id/btn_black_wild_west"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_black_wild_west"
+            android:importantForAccessibility="no"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/result_wild_west"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:paddingBottom="70dp"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:id="@+id/btn_settings_wild_west"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_settings_wild_west"
+        android:layout_margin="20dp"
+        android:importantForAccessibility="no"/>
+
+    <ImageView
+        android:id="@+id/btn_menu_wild_west"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_menu_wild_west"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:importantForAccessibility="no"/>
+</FrameLayout>
